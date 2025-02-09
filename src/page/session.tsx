@@ -1,6 +1,7 @@
 import {useParams} from "react-router-dom";
 import {Fragment, useEffect, useRef, useState} from "react";
 import {motion} from "framer-motion";
+import {toast} from "react-toastify";
 
 interface vocabulary {
     word: string;
@@ -85,14 +86,13 @@ export default function Session() {
                                                         {vocabulary.meaning}
                                                     </p>
                                                     <div className="card-actions justify-end">
-                                                        <button className="btn btn-primary"
-                                                                onClick={() => {
-                                                                    setCurrentQuestion(i + 1)
-                                                                }}>
-                                                            <a href={`#${(i + 1).toString()}`}>
-                                                                Next
-                                                            </a>
-                                                        </button>
+                                                        <a href={`#${(i + 1).toString()}`}
+                                                           className="btn btn-primary"
+                                                           onClick={() => {
+                                                               setCurrentQuestion(i + 1)
+                                                           }}>
+                                                            Next
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -109,7 +109,7 @@ export default function Session() {
                                                     </div>
                                                     <p></p>
                                                     <div className="card-actions justify-end">
-                                                        <input type="text" placeholder="Type here"
+                                                        <input autoFocus={true} type="text" placeholder="Type here"
                                                                onChange={e => {
                                                                    setAnswer(e.target.value)
                                                                }}
@@ -124,6 +124,7 @@ export default function Session() {
                                                                         success = vocabulary.meaning.toLowerCase() == answer.toLowerCase();
                                                                     }
                                                                     if (success) {
+                                                                        toast.success("Giỏi z trời");
                                                                         setSuccessAnswer(successAnswer + 1)
                                                                         playSound("/success.mp3")
                                                                         setStarPosition({
@@ -134,6 +135,7 @@ export default function Session() {
                                                                             setStarPosition(null);
                                                                         }, 1500);
                                                                     } else {
+                                                                        toast.error("Thu Hà gà quá")
                                                                         playSound("/wrong.mp3")
                                                                     }
 
