@@ -1,0 +1,559 @@
+{
+  "vocabulary": [
+    {
+      "word": "Nourishment",
+      "meaning": "sự nuôi dưỡng, thực phẩm",
+      "type": "n",
+      "image": {
+        "width": 4918,
+        "height": 3279,
+        "src": "https://images.pexels.com/photos/30624526/pexels-photo-30624526.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Three golden loaves of rustic bread on a floured black surface, showcasing artisanal baking."
+      }
+    },
+    {
+      "word": "Sustenance",
+      "meaning": "sự nuôi dưỡng, thực phẩm",
+      "type": "n",
+      "image": {
+        "width": 5358,
+        "height": 3572,
+        "src": "https://images.pexels.com/photos/7551581/pexels-photo-7551581.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A senior man supported by a volunteer with groceries at home."
+      }
+    },
+    {
+      "word": "Get heavier and standards of health",
+      "meaning": "trở nên nặng nề về sức khỏe",
+      "type": "v",
+      "image": {
+        "width": 6315,
+        "height": 4210,
+        "src": "https://images.pexels.com/photos/7755153/pexels-photo-7755153.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of gloved hands preparing a sterile setup for a salon or spa session."
+      }
+    },
+    {
+      "word": "Well-being fall",
+      "meaning": "sức khỏe giảm sút",
+      "type": "n",
+      "image": {
+        "width": 3569,
+        "height": 5354,
+        "src": "https://images.pexels.com/photos/16257094/pexels-photo-16257094.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A woman sits with her dog near a forest lake during autumn, enjoying the serene view."
+      }
+    },
+    {
+      "word": "Health crisis",
+      "meaning": "khủng hoảng sức khỏe",
+      "type": "n",
+      "image": {
+        "width": 3000,
+        "height": 4500,
+        "src": "https://images.pexels.com/photos/30590053/pexels-photo-30590053.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": ""
+      }
+    },
+    {
+      "word": "Individual",
+      "meaning": "cá nhân",
+      "type": "a/n",
+      "image": {
+        "width": 5825,
+        "height": 3883,
+        "src": "https://images.pexels.com/photos/4016528/pexels-photo-4016528.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Flat lay composition of rows of delicious fruit jellies hearts placed on pink background"
+      }
+    },
+    {
+      "word": "Convenience food and junk food",
+      "meaning": "thức ăn nhanh và đồ ăn vặt",
+      "type": "n",
+      "image": {
+        "width": 3000,
+        "height": 2000,
+        "src": "https://images.pexels.com/photos/4109206/pexels-photo-4109206.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Delicious McDonald's French fries spilled on a bright white background."
+      }
+    },
+    {
+      "word": "Ubiquitous",
+      "meaning": "khắp mọi nơi",
+      "type": "a",
+      "image": {
+        "width": 7360,
+        "height": 4912,
+        "src": "https://images.pexels.com/photos/4032448/pexels-photo-4032448.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Serene river surrounded by lush green trees under a bright blue sky. Perfect for nature lovers."
+      }
+    },
+    {
+      "word": "Sponsor",
+      "meaning": "nhà tài trợ",
+      "type": "n",
+      "image": {
+        "width": 4375,
+        "height": 2917,
+        "src": "https://images.pexels.com/photos/34535/lorenzo-jorge-moto-gp-motorcycle.jpg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A Yamaha sports bike speeds through a race track, showcasing motorsport excitement."
+      }
+    },
+    {
+      "word": "Government-sponsored",
+      "meaning": "được chính phủ tài trợ",
+      "type": "n",
+      "image": {
+        "width": 6000,
+        "height": 4000,
+        "src": "https://images.pexels.com/photos/30624844/pexels-photo-30624844.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "The iconic Houses of Parliament in London highlighted by a warm sunset glow, showcasing Gothic architecture."
+      }
+    },
+    {
+      "word": "Awareness",
+      "meaning": "nhận thức",
+      "type": "n",
+      "image": {
+        "width": 6016,
+        "height": 4000,
+        "src": "https://images.pexels.com/photos/579474/pexels-photo-579474.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A pink ribbon symbolizing cancer awareness placed on a light wooden background."
+      }
+    },
+    {
+      "word": "Campaign",
+      "meaning": "chiến dịch",
+      "type": "n",
+      "image": {
+        "width": 3456,
+        "height": 2304,
+        "src": "https://images.pexels.com/photos/1464210/pexels-photo-1464210.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A crowded political rally in Wheeling, showcasing Trump supporters with banners and signs."
+      }
+    },
+    {
+      "word": "Awareness campaign",
+      "meaning": "chiến dịch nâng cao nhận thức",
+      "type": "n",
+      "image": {
+        "width": 5760,
+        "height": 3840,
+        "src": "https://images.pexels.com/photos/3039036/pexels-photo-3039036.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of a protest sign with Earth and 'One World' text, symbolizing climate change awareness."
+      }
+    },
+    {
+      "word": "Warn of the dangers",
+      "meaning": "cảnh cáo nguy hiểm",
+      "type": "v",
+      "image": {
+        "width": 5807,
+        "height": 3871,
+        "src": "https://images.pexels.com/photos/7230391/pexels-photo-7230391.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A flat lay of various drugs including pills, capsules, and a syringe on a wooden surface under moody blue lighting."
+      }
+    },
+    {
+      "word": "Healthy regime",
+      "meaning": "chế độ lành mạnh",
+      "type": "n",
+      "image": {
+        "width": 5568,
+        "height": 3712,
+        "src": "https://images.pexels.com/photos/30585000/pexels-photo-30585000.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Athlete training on a grassy soccer field with a ball and training equipment."
+      }
+    },
+    {
+      "word": "Quirkiness",
+      "meaning": "tính kì quặc",
+      "type": "n",
+      "image": {
+        "width": 4160,
+        "height": 6240,
+        "src": "https://images.pexels.com/photos/30513213/pexels-photo-30513213.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A striking portrait featuring a woman in a red dress holding a lollipop and vintage phone, with dramatic lighting."
+      }
+    },
+    {
+      "word": "Constantly",
+      "meaning": "liên tục",
+      "type": "adv",
+      "image": {
+        "width": 4928,
+        "height": 3264,
+        "src": "https://images.pexels.com/photos/2305761/pexels-photo-2305761.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Flat lay of travel essentials including a map, passport, coffee, and gadgets on a desk."
+      }
+    },
+    {
+      "word": "Constancy",
+      "meaning": "sự kiên định",
+      "type": "n",
+      "image": {
+        "width": 5431,
+        "height": 3621,
+        "src": "https://images.pexels.com/photos/7220100/pexels-photo-7220100.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A priest in black vestments reads a book inside a church, conveying spirituality and devotion."
+      }
+    },
+    {
+      "word": "Occasionally",
+      "meaning": "thỉnh thoảng",
+      "type": "adv",
+      "image": {
+        "width": 2055,
+        "height": 2634,
+        "src": "https://images.pexels.com/photos/6018398/pexels-photo-6018398.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Two-tier wedding cake with delicate flowers in a dimly lit setting."
+      }
+    },
+    {
+      "word": "Occasion",
+      "meaning": "dịp",
+      "type": "n",
+      "image": {
+        "width": 2800,
+        "height": 1869,
+        "src": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A beautiful outdoor beach wedding setup with rose petals, guests, and ocean view."
+      }
+    },
+    {
+      "word": "Depart",
+      "meaning": "khởi hành",
+      "type": "v",
+      "image": {
+        "width": 3603,
+        "height": 2402,
+        "src": "https://images.pexels.com/photos/6466385/pexels-photo-6466385.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A woman gazes out of a train window, enjoying a serene journey through lush scenery."
+      }
+    },
+    {
+      "word": "Department",
+      "meaning": "sự khởi hành",
+      "type": "n",
+      "image": {
+        "width": 4000,
+        "height": 6000,
+        "src": "https://images.pexels.com/photos/8872373/pexels-photo-8872373.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Adult man in archive room carrying a large stack of documents, surrounded by shelves."
+      }
+    },
+    {
+      "word": "Revolve",
+      "meaning": "quay quanh",
+      "type": "v",
+      "image": {
+        "width": 4480,
+        "height": 6720,
+        "src": "https://images.pexels.com/photos/6983044/pexels-photo-6983044.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of disco balls casting intricate reflections, perfect for party themes."
+      }
+    },
+    {
+      "word": "Evolution",
+      "meaning": "sự tiến hóa",
+      "type": "n",
+      "image": {
+        "width": 5472,
+        "height": 3080,
+        "src": "https://images.pexels.com/photos/3839557/pexels-photo-3839557.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up image of an Archaeopteryx fossil showcasing detailed bone structure."
+      }
+    },
+    {
+      "word": "Involve",
+      "meaning": "liên quan",
+      "type": "a",
+      "image": {
+        "width": 4077,
+        "height": 6115,
+        "src": "https://images.pexels.com/photos/30623429/pexels-photo-30623429.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": ""
+      }
+    },
+    {
+      "word": "Dominate",
+      "meaning": "chiếm ưu thế",
+      "type": "v",
+      "image": {
+        "width": 4640,
+        "height": 6960,
+        "src": "https://images.pexels.com/photos/13697315/pexels-photo-13697315.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of a majestic dog standing outdoors at twilight with a natural background."
+      }
+    },
+    {
+      "word": "Offset",
+      "meaning": "bù đắp, giảm tác động",
+      "type": "v",
+      "image": {
+        "width": 5184,
+        "height": 2845,
+        "src": "https://images.pexels.com/photos/8481931/pexels-photo-8481931.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A smartphone submerged in water with bubbles rising around it, showcasing a dynamic underwater scene."
+      }
+    },
+    {
+      "word": "Straightforward",
+      "meaning": "đơn giản, dễ hiểu / thẳng thắn",
+      "type": "a",
+      "image": {
+        "width": 3627,
+        "height": 5440,
+        "src": "https://images.pexels.com/photos/4631892/pexels-photo-4631892.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of a hand submerged in water within a clear glass jar, creating a conceptual and artistic visual."
+      }
+    },
+    {
+      "word": "Damage",
+      "meaning": "thiệt hại",
+      "type": "n",
+      "image": {
+        "width": 6000,
+        "height": 7548,
+        "src": "https://images.pexels.com/photos/930436/pexels-photo-930436.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Explore this eerie abandoned warehouse with a broken roof, showcasing urban decay"
+      }
+    },
+    {
+      "word": "Reforestation",
+      "meaning": "sự trồng rừng",
+      "type": "n",
+      "image": {
+        "width": 5760,
+        "height": 3840,
+        "src": "https://images.pexels.com/photos/30504188/pexels-photo-30504188.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of young saplings growing in a nursery in Paragominas, Brazil, showcasing lush green growth."
+      }
+    },
+    {
+      "word": "Undertake",
+      "meaning": "thực hiện, tiến hành",
+      "type": "v",
+      "image": {
+        "width": 2848,
+        "height": 3560,
+        "src": "https://images.pexels.com/photos/16737943/pexels-photo-16737943.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Sophisticated woman indoors relaxing and enjoying the fragrance of a scented product."
+      }
+    },
+    {
+      "word": "Carry out",
+      "meaning": "thực hiện",
+      "type": "v",
+      "image": {
+        "width": 5472,
+        "height": 3648,
+        "src": "https://images.pexels.com/photos/1561145/pexels-photo-1561145.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Variety of beer bottles displayed in open cardboard boxes."
+      }
+    },
+    {
+      "word": "Implement",
+      "meaning": "thực hiện",
+      "type": "v",
+      "image": {
+        "width": 4160,
+        "height": 6240,
+        "src": "https://images.pexels.com/photos/5642002/pexels-photo-5642002.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "From above set of instruments for clay modeling placed on white table near board with rolling pins in light workshop"
+      }
+    },
+    {
+      "word": "Scale",
+      "meaning": "phạm vi, quy mô",
+      "type": "n",
+      "image": {
+        "width": 4256,
+        "height": 2832,
+        "src": "https://images.pexels.com/photos/53404/scale-diet-fat-health-53404.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A digital glass weighing scale with a blue measuring tape, symbolizing weight management."
+      }
+    },
+    {
+      "word": "Crucial",
+      "meaning": "quan trọng",
+      "type": "a",
+      "image": {
+        "width": 4000,
+        "height": 6000,
+        "src": "https://images.pexels.com/photos/3923176/pexels-photo-3923176.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "White pills artistically arranged to form the text SOS, symbolizing a call for help or medical emergency."
+      }
+    },
+    {
+      "word": "Vital",
+      "meaning": "quan trọng",
+      "type": "a",
+      "image": {
+        "width": 4245,
+        "height": 5306,
+        "src": "https://images.pexels.com/photos/6467798/pexels-photo-6467798.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Creative composition of opened bottle with refreshing soft drink soaring on blue background near ripe lemon slices"
+      }
+    },
+    {
+      "word": "Critical",
+      "meaning": "quan trọng",
+      "type": "a",
+      "image": {
+        "width": 2999,
+        "height": 1999,
+        "src": "https://images.pexels.com/photos/942560/pexels-photo-942560.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Brave firefighters battle a blaze amidst thick smoke in an outdoor setting."
+      }
+    },
+    {
+      "word": "Address",
+      "meaning": "giải quyết",
+      "type": "v",
+      "image": {
+        "width": 2592,
+        "height": 1728,
+        "src": "https://images.pexels.com/photos/1046403/pexels-photo-1046403.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A vintage-style mailbox with the morning sun illuminating a house in the background."
+      }
+    },
+    {
+      "word": "Enhance",
+      "meaning": "tăng cường",
+      "type": "v",
+      "image": {
+        "width": 4000,
+        "height": 6000,
+        "src": "https://images.pexels.com/photos/30546259/pexels-photo-30546259.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Shadow of a plant creates a dramatic silhouette against softly lit window blinds."
+      }
+    },
+    {
+      "word": "Biodiversity",
+      "meaning": "đa dạng sinh học",
+      "type": "n",
+      "image": {
+        "width": 3456,
+        "height": 5184,
+        "src": "https://images.pexels.com/photos/30564757/pexels-photo-30564757.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A vigilant meerkat stands upright on a sandy mound, observing its surroundings."
+      }
+    },
+    {
+      "word": "Ecosystem",
+      "meaning": "hệ sinh thái",
+      "type": "n",
+      "image": {
+        "width": 4608,
+        "height": 3456,
+        "src": "https://images.pexels.com/photos/668790/pexels-photo-668790.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Explore a stunning underwater scene featuring a vibrant sea fan among coral reefs, showcasing marine biodiversity."
+      }
+    },
+    {
+      "word": "Invasive",
+      "meaning": "xâm lấn",
+      "type": "a",
+      "image": {
+        "width": 4000,
+        "height": 6000,
+        "src": "https://images.pexels.com/photos/17993522/pexels-photo-17993522.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of a vibrant pink bromeliad flower amidst lush green foliage in a natural setting."
+      }
+    },
+    {
+      "word": "Take over",
+      "meaning": "tiếp quản, kế thừa, chiếm lấy",
+      "type": "v",
+      "image": {
+        "width": 5104,
+        "height": 2871,
+        "src": "https://images.pexels.com/photos/19819250/pexels-photo-19819250.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A serene view of misty mountain peaks cloaked in clouds at twilight, offering a tranquil nature scene."
+      }
+    },
+    {
+      "word": "Contributor",
+      "meaning": "nhân tố, yếu tố góp phần",
+      "type": "n",
+      "image": {
+        "width": 7680,
+        "height": 5120,
+        "src": "https://images.pexels.com/photos/3776139/pexels-photo-3776139.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A smiling young woman listening to music on headphones, outdoors near a busy street."
+      }
+    },
+    {
+      "word": "Survival",
+      "meaning": "sự tồn tại",
+      "type": "n",
+      "image": {
+        "width": 5184,
+        "height": 3456,
+        "src": "https://images.pexels.com/photos/207324/pexels-photo-207324.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Man attempts to start a campfire surrounded by rocks in a lush green forest."
+      }
+    },
+    {
+      "word": "Capture",
+      "meaning": "sự hấp thụ",
+      "type": "n",
+      "image": {
+        "width": 4016,
+        "height": 6016,
+        "src": "https://images.pexels.com/photos/30632757/pexels-photo-30632757.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Intimate black and white portrait capturing a young girl's deep expression."
+      }
+    },
+    {
+      "word": "Availability",
+      "meaning": "tính sẵn có",
+      "type": "n",
+      "image": {
+        "width": 1666,
+        "height": 2500,
+        "src": "https://images.pexels.com/photos/4923439/pexels-photo-4923439.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Close-up of a 'AIR 24 HOURS' sign with red text and arrow emphasizing constant availability."
+      }
+    },
+    {
+      "word": "Stability",
+      "meaning": "sự ổn định",
+      "type": "n",
+      "image": {
+        "width": 5472,
+        "height": 3648,
+        "src": "https://images.pexels.com/photos/1051449/pexels-photo-1051449.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "Artistic rock balancing on a serene beach in Fingal Head, NSW, Australia."
+      }
+    },
+    {
+      "word": "Vulnerable",
+      "meaning": "dễ bị tổn thương",
+      "type": "a",
+      "image": {
+        "width": 4360,
+        "height": 3628,
+        "src": "https://images.pexels.com/photos/40721/egg-hammer-threaten-violence-40721.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A wooden hammer poised above a fragile egg in a dramatic still life composition."
+      }
+    },
+    {
+      "word": "Scheme",
+      "meaning": "kế hoạch",
+      "type": "n",
+      "image": {
+        "width": 5472,
+        "height": 3648,
+        "src": "https://images.pexels.com/photos/8962799/pexels-photo-8962799.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "alt": "A group of people reviewing architectural blueprints on a table indoors."
+      }
+    },
+    {
+      "word": "Resilience",
+      "meaning": "khả năng phục hồi",
+      "type": "n"
+    }
+  ]
+}
