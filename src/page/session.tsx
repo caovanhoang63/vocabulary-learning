@@ -67,15 +67,19 @@ export default function Session() {
                     <div className="carousel w-full">
                         {
                             vocabularies.map((vocabulary, i) => (
-                                <div id={i.toString()} className="carousel-item w-full">
-                                    <label className="swap swap-flip text-9xl w-full">
-                                        <input type="checkbox" disabled checked={results[i].done}/>
-                                        <div className={"swap-on"}>
+                                <div id={i.toString()} className="carousel-item w-full ">
+                                    <label className="swap swap-flip text-9xl w-full select-text ">
+                                        <input type="checkbox"
+                                               onClick={(e) => e.preventDefault()}
+                                               checked={results[i].done}
+                                               className=""
+                                        />
+                                        <div className={"swap-on "}>
                                             <div
                                                 className={`card w-[80rem] h-[35rem] m-10 shadow-xl ${results[i].success ? "bg-success" : "bg-red-400"}`}>
                                                 <div className="card-body">
-                                                    <h2 className="card-title text-2xl">{vocabulary.word}</h2>
-                                                    <p className={"text-xl"}>
+                                                    <h2 className="card-title cursor-text text-2xl">{vocabulary.word}</h2>
+                                                    <p className={"text-xl cursor-text"}>
                                                         ({vocabulary.type})
                                                         <br/>
                                                         {vocabulary.meaning}
@@ -95,10 +99,10 @@ export default function Session() {
                                         </div>
                                         <div className="swap-off">
                                             <div className="card w-[80rem] h-[35rem] m-10 shadow-xl">
-                                                <div className="card-body">
-                                                    <h2 className="card-title">What is this word?</h2>
+                                                <div className="card-body ">
+                                                    <h2 className="card-title cursor-text">What is this word?</h2>
                                                     <div className={"flex"}>
-                                                        <p className={"text-xl"}>{results[i].type == 0 ? vocabulary.meaning : vocabulary.word}</p>
+                                                        <p className={"text-xl cursor-text "}>{results[i].type == 0 ? vocabulary.meaning : vocabulary.word}</p>
                                                         <img src={vocabulary.image?.src}
                                                              alt={vocabulary.image?.alt}
                                                              className="rounded-xl h-80"/>
@@ -132,7 +136,6 @@ export default function Session() {
                                                                     } else {
                                                                         playSound("/wrong.mp3")
                                                                     }
-
 
                                                                     setResults(
                                                                         results.map((r, index) => {
