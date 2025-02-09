@@ -171,11 +171,33 @@ export default function Session() {
                                                                         success = vocabulary.meaning.toLowerCase().split(",").includes(answer.trim().toLowerCase());
                                                                     }
                                                                     if (success) {
-                                                                        toast.success("Giỏi z trời");
+                                                                        const random = Math.floor(Math.random() * 3);
+                                                                        switch (random) {
+                                                                            case 0:
+                                                                                toast.success("Giỏi z trời");
+                                                                                break;
+                                                                            case 1:
+                                                                                toast.success("Đúng rồi nè")
+                                                                                break;
+                                                                            default:
+                                                                                toast.success("Quá chuẩn")
+                                                                                break;
+                                                                        }
                                                                         setSuccessAnswer(successAnswer + 1)
                                                                         playSound("/vocabulary-learning/success.mp3")
                                                                     } else {
-                                                                        toast.error("gà quá")
+                                                                        const random = Math.floor(Math.random() * 3);
+                                                                        switch (random) {
+                                                                            case 0:
+                                                                                toast.error("gà quá")
+                                                                                break;
+                                                                            case 1:
+                                                                                toast.error("Cố lên")
+                                                                                break;
+                                                                            default:
+                                                                                toast.error("Ổn hong z ba")
+                                                                                break;
+                                                                        }
                                                                         playSound("/vocabulary-learning/wrong.mp3")
                                                                     }
                                                                     setResults(
