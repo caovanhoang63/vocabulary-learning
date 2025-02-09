@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function Dashboard() {
     const [sessions, setSessions] = useState<string[]>([])
     useEffect(() => {
-        fetch("/sessions.json")
+        fetch("/vocabulary-learning/sessions.json")
             .then((res) => {
                 res.json().then(
                     r => setSessions(r.sessions),
