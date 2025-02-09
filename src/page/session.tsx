@@ -40,7 +40,7 @@ export default function Session() {
     const [starPosition, setStarPosition] = useState<{ x: number; y: number } | null>(null);
     const scoreStar = useRef<HTMLImageElement>(null);
     useEffect(() => {
-        fetch(`/vocabulary-learning/${sessionName}.json`).then((res) => res.json().then(
+        fetch(`/${sessionName}.json`).then((res) => res.json().then(
             r => {
                 setVocabularies(shuffle(r.vocabulary))
                 setResults(new Array(r.vocabulary.length).fill(null).map(() => ({
@@ -59,7 +59,7 @@ export default function Session() {
                     <div className={"flex gap-10"}>
                         <div className={"flex"}>
                             <p>{successAnswer}</p>
-                            <img width={"30px"} src="/vocabulary-learning/star.png" alt="star" ref={scoreStar}/>
+                            <img width={"30px"} src="/star.png" alt="star" ref={scoreStar}/>
                         </div>
                         <h2>{currentQuestion + 1}/{vocabularies.length}</h2>
                     </div>
@@ -126,7 +126,7 @@ export default function Session() {
                                                                     if (success) {
                                                                         toast.success("Giỏi z trời");
                                                                         setSuccessAnswer(successAnswer + 1)
-                                                                        playSound("/vocabulary-learning/success.mp3")
+                                                                        playSound("/success.mp3")
                                                                         setStarPosition({
                                                                             x: 1500,
                                                                             y: -200,
@@ -136,7 +136,7 @@ export default function Session() {
                                                                         }, 1500);
                                                                     } else {
                                                                         toast.error("Thu Hà gà quá")
-                                                                        playSound("/vocabulary-learning/wrong.mp3")
+                                                                        playSound("/wrong.mp3")
                                                                     }
 
                                                                     setResults(
@@ -175,7 +175,7 @@ export default function Session() {
                         scale: 1,
                         opacity: 0.3,
                     }}
-                    width={"30px"} src="/vocabulary-learning/star.png" alt="star"
+                    width={"30px"} src="/star.png" alt="star"
                     transition={{duration: 1.5, ease: "easeInOut"}}
                     className="absolute w-8 h-8 "
                 >
