@@ -1,4 +1,4 @@
-import {Outlet} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 import {Fragment} from "react";
 
 export default function MainLayout() {
@@ -6,7 +6,7 @@ export default function MainLayout() {
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">Học bài</a>
+                    <Link to={"/"} className="btn btn-ghost text-xl">Học bài</Link>
                 </div>
                 <div className="flex-none">
                     <button className="btn btn-square btn-ghost">
