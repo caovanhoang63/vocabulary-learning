@@ -23,8 +23,8 @@ export default function Dashboard() {
                                             hover:opacity-50 hover:cursor-pointer`}>
                                     <figure>
                                         <img
-                                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                            alt="Shoes"/>
+                                            src="/vocabulary-learning/health.png"
+                                            alt="health"/>
                                     </figure>
                                     <div className="card-body">
                                         <h2 className="card-title">{session.toUpperCase()}</h2>
