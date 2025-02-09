@@ -3,11 +3,11 @@ import Dashboard from "./page/dashboard.tsx";
 import MainLayout from "./layout/MainLayout.tsx";
 import Session from "./page/session.tsx";
 
-export default function Router () {
+export default function Router() {
 
-    return(
-        <BrowserRouter>
-            <Routes >
+    return (
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
+            <Routes>
                 <Route path="/" element={<MainLayout/>}>
                     <Route index element={<Dashboard/>}/>
                     <Route path={"session/:sessionName"} element={<Session/>}/>
