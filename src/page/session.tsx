@@ -118,6 +118,9 @@ export default function Session() {
                                                                     }
                                                                     if (success) {
                                                                         setSuccessAnswer(successAnswer + 1)
+                                                                        playSound("/success.mp3")
+                                                                    } else {
+                                                                        playSound("/wrong.mp3")
                                                                     }
                                                                     setResults(
                                                                         results.map((r, index) => {
@@ -151,3 +154,8 @@ export default function Session() {
         </Fragment>
     )
 }
+
+const playSound = (path: string) => {
+    const audio = new Audio(path);
+    audio.play().catch((err) => console.error("Lỗi phát âm thanh:", err));
+};
