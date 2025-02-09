@@ -6,7 +6,7 @@ function App() {
     return (
         <Fragment>
             <Router/>
-            <ToastContainer position="bottom-right"/>
+            <ToastContainer stacked position="top-center"/>
         </Fragment>
     )
 }
