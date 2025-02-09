@@ -1,5 +1,6 @@
 import {useParams} from "react-router-dom";
-import {Fragment, useEffect, useState} from "react";
+import {Fragment, useEffect, useRef, useState} from "react";
+import {motion} from "framer-motion";
 
 interface vocabulary {
     word: string;
@@ -35,6 +36,8 @@ export default function Session() {
     const [answer, setAnswer] = useState<string>("")
     const [currentQuestion, setCurrentQuestion] = useState<number>(0)
     const [successAnswer, setSuccessAnswer] = useState<number>(0)
+    const [starPosition, setStarPosition] = useState<{ x: number; y: number } | null>(null);
+    const scoreStar = useRef<HTMLImageElement>(null);
     useEffect(() => {
         fetch(`/${sessionName}.json`).then((res) => res.json().then(
             r => {
@@ -55,7 +58,7 @@ export default function Session() {
                     <div className={"flex gap-10"}>
                         <div className={"flex"}>
                             <p>{successAnswer}</p>
-                            <img width={"30px"} src="/star.png" alt="star"/>
+                            <img width={"30px"} src="/star.png" alt="star" ref={scoreStar}/>
                         </div>
                         <h2>{currentQuestion + 1}/{vocabularies.length}</h2>
                     </div>
@@ -119,9 +122,18 @@ export default function Session() {
                                                                     if (success) {
                                                                         setSuccessAnswer(successAnswer + 1)
                                                                         playSound("/success.mp3")
+                                                                        setStarPosition({
+                                                                            x: 1500,
+                                                                            y: -200,
+                                                                        });
+                                                                        setTimeout(() => {
+                                                                            setStarPosition(null);
+                                                                        }, 1500);
                                                                     } else {
                                                                         playSound("/wrong.mp3")
                                                                     }
+
+
                                                                     setResults(
                                                                         results.map((r, index) => {
                                                                             if (i === index) {
@@ -150,7 +162,21 @@ export default function Session() {
                     {/*    }*/}
                     {/*</div>*/}
                 </div>
+                {(starPosition && scoreStar.current) && (<motion.img
+                    initial={{x: starPosition.x, y: starPosition.y, scale: 1, opacity: 1}}
+                    animate={{
+                        x: 1700,
+                        y: -710,
+                        scale: 1,
+                        opacity: 0.3,
+                    }}
+                    width={"30px"} src="/star.png" alt="star"
+                    transition={{duration: 1.5, ease: "easeInOut"}}
+                    className="absolute w-8 h-8 "
+                >
+                </motion.img>)}
             </div>
+
         </Fragment>
     )
 }
