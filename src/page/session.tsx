@@ -1,6 +1,5 @@
 import {Link, useParams} from "react-router-dom";
 import {Fragment, useEffect, useRef, useState} from "react";
-import {motion} from "framer-motion";
 import {toast} from "react-toastify";
 
 interface vocabulary {
@@ -37,9 +36,9 @@ export default function Session() {
     const [vocabularies, setVocabularies] = useState<vocabulary[]>([])
     const [results, setResults] = useState<result[]>([])
     const [answer, setAnswer] = useState<string>("")
-    const [currentQuestion, setCurrentQuestion] = useState<number>(0)
+    // const [currentQuestion, setCurrentQuestion] = useState<number>(0)
     const [successAnswer, setSuccessAnswer] = useState<number>(0)
-    const [starPosition, setStarPosition] = useState<{ x: number; y: number } | null>(null);
+    // const [starPosition, setStarPosition] = useState<{ x: number; y: number } | null>(null);
     const scoreStar = useRef<HTMLImageElement>(null);
     const rand = Math.floor(Math.random() * 3);
     useEffect(() => {
@@ -125,7 +124,7 @@ export default function Session() {
                                                         <a href={`#${(i + 1).toString()}`}
                                                            className="btn btn-primary"
                                                            onClick={() => {
-                                                               setCurrentQuestion(i + 1)
+                                                               // setCurrentQuestion(i + 1)
                                                                if (i + 1 == vocabularies.length) {
                                                                    setDone(true)
                                                                    if (document) {
@@ -222,19 +221,19 @@ export default function Session() {
                     </div>
 
                 </div>
-                {(starPosition && scoreStar.current) && (<motion.img
-                    initial={{x: starPosition.x, y: starPosition.y, scale: 1, opacity: 1}}
-                    animate={{
-                        x: 1700,
-                        y: -710,
-                        scale: 1,
-                        opacity: 0.3,
-                    }}
-                    width={"30px"} src="/vocabulary-learning/star.png" alt="star"
-                    transition={{duration: 1.5, ease: "easeInOut"}}
-                    className="absolute w-8 h-8 "
-                >
-                </motion.img>)}
+                {/*{(starPosition && scoreStar.current) && (<motion.img*/}
+                {/*    initial={{x: starPosition.x, y: starPosition.y, scale: 1, opacity: 1}}*/}
+                {/*    animate={{*/}
+                {/*        x: 1700,*/}
+                {/*        y: -710,*/}
+                {/*        scale: 1,*/}
+                {/*        opacity: 0.3,*/}
+                {/*    }}*/}
+                {/*    width={"30px"} src="/vocabulary-learning/star.png" alt="star"*/}
+                {/*    transition={{duration: 1.5, ease: "easeInOut"}}*/}
+                {/*    className="absolute w-8 h-8 "*/}
+                {/*>*/}
+                {/*</motion.img>)}*/}
             </div>
         </Fragment>
     )
